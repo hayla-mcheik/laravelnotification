@@ -1,0 +1,1 @@
+<p>Visitors count: {{ $count }}</p>
