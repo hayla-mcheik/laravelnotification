@@ -3,8 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Customer;
-use App\Models\ServiceModel;
-use App\Models\Category;
+
 use App\Models\States;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -70,12 +69,11 @@ class AdminAuth extends Controller
     {
 
         $count = DB::table('visitor_counts')->value('count');
-        $totalServices = ServiceModel::totalServices();
-        $totalCategory = Category::totalCategories();
+
 
     
   
-        return view('admin.dashboard', compact('count','totalServices','totalCategory'));
+        return view('admin.dashboard', compact('count'));
 
     }
     public function users()

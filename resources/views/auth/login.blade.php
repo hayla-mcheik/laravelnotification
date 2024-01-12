@@ -22,7 +22,7 @@
     }
  .bg {
 animation:slide 8s ease-in-out infinite alternate;
-background-image: linear-gradient(-60deg, rgb(84 236 5 / 26%) 50%, rgb(12 124 36) 50%);
+background-image:linear-gradient(-60deg, rgb(167 136 168 / 26%) 50%, rgb(124 12 17) 50%);
 bottom:0;
 left:-50%;
 opacity:.5;
